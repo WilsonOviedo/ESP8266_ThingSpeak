@@ -14,8 +14,6 @@ void setup()
   delay(10);
   Serial.println("Connecting to ");
   Serial.println(ssid);
-
-
   WiFi.begin(ssid, pass);
 
   while (WiFi.status() != WL_CONNECTED)
