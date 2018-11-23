@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 
-String apiKey = "L1YUQLGTOATM2IEX";     //  Enter your Write API key from ThingSpeak
+String apiKey = "xxxxxxx";     //  Enter your Write API key from ThingSpeak
 
-const char *ssid =  "Visitantes";     // replace with your wifi ssid and wpa2 key
-const char *pass =  "Visitante3574";
+const char *ssid =  "xxxxx";     // replace with your wifi ssid and wpa2 key
+const char *pass =  "xxxxxx";
 const char* server = "api.thingspeak.com";
 
 WiFiClient client;
